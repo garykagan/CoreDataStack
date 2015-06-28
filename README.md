@@ -9,7 +9,7 @@ CoreDataStack is setup as a singleton so the first call to the singleton instanc
   CoreDataStack.defaultStack
 ```
 
-Any work on the private queue context will automaitically propagate to the main queue context after save
+Any work on the private queue context will automaitically propagate to the main queue context after save and vice versa
 
 ```swift
   // Returns the main queue context
